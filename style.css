@@ -1,0 +1,123 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#heading{
+    background: linear-gradient(45deg,black,rgb(2, 2, 66));
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+#profile{
+    background: linear-gradient(45deg,rgb(46, 44, 44),rgb(124, 114, 114));
+    padding: 20px;
+    border: none;
+    color: white;
+    height: 100px;
+    
+}
+
+#profile-photo{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+}
+
+#profile-photo img{
+
+    border-radius: 50%;
+}
+
+#profile-data{
+    float: left;
+    margin-left: 20px;
+}
+
+#profile-data p{
+    margin-top: 0px;
+    font-size: 10px;
+
+}
+#topics{
+    height: 200px;
+}
+
+#malayalam{
+    height: 150px;
+    width: 100px;
+    margin: 10px 10px ;
+    border-radius: 10px;
+    float: left;
+    border: 1px solid rgb(133, 115, 115);
+}
+
+#malayalam-top{
+    height: 75px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 10px 10px 0 0;
+}
+
+#malayalam-top img{
+    border-radius: 10px 10px 0 0;
+
+}
+
+#malayalam-middle{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background:linear-gradient(45deg,black,rgb(131, 109, 109));
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 23px;
+    color: white;
+}
+
+#malayalam-middle p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+
+#topics h6{
+
+    margin: 5px 10px auto;
+
+}
+
+#test{
+    border:1px solid black;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#test h6{
+    margin: 5px 10px auto;
+
+}
+
+#quiz01,
+#quiz02,
+#quiz03,
+#quiz04{
+    padding: 30px;
+    float: left;
+    margin: 20px  5px auto ;
+    position: relative;
+    background: linear-gradient(45deg,rgb(12, 135, 139),rgb(5, 5, 5));
+    color: white;
+    border-radius: 5px;
+}
+
